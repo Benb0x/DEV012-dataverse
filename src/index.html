@@ -6,24 +6,18 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-
+ 
     <script src="main.js" type="module"></script>
+    <nav>
     <header> 
       <h1>VIDEOJUEGOS POPULARES 80'S AL 2023</h1>
     </header>
 
     <div id="filtros"></div>
 
-    <label for="filtrar-por-década">Filtrar por década</label>
-    <select id="filtrar-por-década" name="década">
-     <option value="80's">80's</option>
-     <option value="90's">90's</option>
-     <option value="2000">2000</option>
-     <option value="2010">2010</option>
-    </select>
-
     <label for="filtrar-por-género">Filtrar por género</label>
-    <select id="filtrar-por-género" name="género">
+    <select  data-testid="select-filter"  name="género"  id="filtrar-por-género">
+      <option value="nada"></option>
       <option value="acción">Acción</option>
       <option value="disparos">Disparos</option>
       <option value="rol">Rol</option>
@@ -36,19 +30,26 @@
 
 
     <label for="filtrar-por-POV">Filtrar por POV</label>
-    <select id="filtrar-por-POV" name="POV">
+    <select data-testid="select-filter" name="POV"  id="filtrar-por-POV">
+      <option value="nada"></option>
       <option value="tercera-persona">Tercera persona</option>
       <option value="primera-persona">Primera persona</option>
       <option value="vista-isometrica">Vista isométrica</option>
       <option value="vista-superior">Vista superior</option>
       <option value="vista-lateral">Vista lateral</option>
     </select>
+    <label for="ordenar-por">Ordenar por</label>
+    <select data-testid="select-filter" name="alfabet" id="ordenar-por">
+      <option value="asc">A - Z</option>
+    </select>
 
+    <button data-testid="restablecerFiltros">Restablecer Filtros</button>
 
+  </nav>
     <div id="root"></div> 
    
   </body>
   <footer>
-    Videojuegos de los 80's al 2023. Desarrollado por Barbara Trejo y Norma Garcia 
+    Videojuegos de los 80's al 2023. Desarrollado por Barbara Trejo.
   </footer>
 </html>
