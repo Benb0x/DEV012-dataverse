@@ -4,7 +4,7 @@ export default [
     "name": "Super Mario Bros",
     "shortDescription": "Icono de los videojuegos, Mario lucha contra Bowser para rescatar a la princesa Peach.",
     "description": "Super Mario Bros es un videojuego de plataformas creado por Nintendo. El juego sigue las aventuras de Mario, un fontanero que debe rescatar a la Princesa Peach del malvado rey Bowser. El juego se desarrolla en el Reino Champiñón y presenta una variedad de niveles desafiantes llenos de enemigos, obstáculos y power-ups. Mario puede crecer en tamaño, lanzar bolas de fuego y saltar sobre tuberías para avanzar. Con su icónico diseño de niveles y personajes, Super Mario Bros se ha convertido en un clásico de los videojuegos y un emblema de Nintendo.",
-    "imageUrl": "https://i.blogs.es/638318/super_mario_bros_logo/1366_2000.jpeg",
+    "imageUrl": "https://naciongrita.com.mx/wp-content/uploads/2017/09/Mario-2-1.jpg",
     "facts": {
       "yearReleased":"1985",
       "gender": "Aventuras",
@@ -107,7 +107,7 @@ export default [
       "yearReleased": "2011",
       "gender": "Aventuras",
       "playingStyles": ["Construcción", "Supervivencia"],
-      "pointsOfView": "Primera persona/Tercera persona",
+      "pointsOfView": "Primera persona",
       "multiplayer": "Sí"
     }
   },
@@ -135,7 +135,7 @@ export default [
       "yearReleased": "2008",
       "gender": "Rol",
       "playingStyles": ["Mundo abierto", "Aventuras"],
-      "pointsOfView": "Primera persona/Tercera persona",
+      "pointsOfView": "Primera persona",
       "multiplayer": "No"
     }
   },
@@ -149,7 +149,7 @@ export default [
       "yearReleased":"2011",
       "gender": "Rol",
       "playingStyles": ["Mundo abierto", "Aventuras"],
-      "pointsOfView": "Primera persona/Tercera persona",
+      "pointsOfView": "Primera persona",
       "multiplayer": "No",
     }
   },
@@ -186,7 +186,7 @@ export default [
     "name": "BioShock Infinite",
     "shortDescription": "Explora la ciudad flotante de Columbia en este juego de disparos en primera persona con elementos de ciencia ficción.",
     "description": "BioShock Infinite es un juego de disparos en primera persona desarrollado por Irrational Games. El juego se desarrolla en la ciudad flotante de Columbia y sigue la historia de Booker DeWitt, un investigador privado que debe rescatar a Elizabeth, una joven con habilidades especiales, de las garras del líder de Columbia, Comstock. BioShock Infinite combina elementos de disparos, exploración y narrativa en un mundo vibrante y complejo. El juego aborda temas como la religión, el nacionalismo y la libertad.",
-    "imageUrl":"https://generacionxbox.com/wp-content/uploads/2023/03/bioschock-infinite-10-anniversary-2023.jpg",
+    "imageUrl":"https://i.blogs.es/68073b/650_1000_bioshock-infinite-llegara-a-linux/450_1000.jpg",
     "facts": {
       "yearReleased": "2013",
       "gender": "Disparos",
@@ -205,7 +205,7 @@ export default [
       "yearReleased":"2006",
       "gender": "Rol",
       "playingStyles": ["Mundo abierto", "Aventuras"],
-      "pointsOfView": "Primera persona/Tercera persona",
+      "pointsOfView": "Primera persona",
       "multiplayer": "No"
     }
 
@@ -346,7 +346,7 @@ export default [
   "facts": {
     "yearReleased": "2009",
     "gender": "Estrategia",
-    "playingStyles": ["MOBA", "Multijugador en línea"],
+    "playingStyles": ["Acción"],
     "pointsOfView": "Vista isométrica",
     "multiplayer": "Sí"
   }
@@ -375,7 +375,7 @@ export default [
       "yearReleased":"2002",
       "gender": "Rol",
       "playingStyles": ["Mundo abierto", "Aventuras"],
-      "pointsOfView": "Primera persona/Tercera persona",
+      "pointsOfView": "Tercera persona",
       "multiplayer": "No"
     }
 },

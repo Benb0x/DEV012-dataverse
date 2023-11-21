@@ -12,10 +12,9 @@
     <header> 
       <h1>VIDEOJUEGOS POPULARES 80'S AL 2023</h1>
     </header>
+    <div class="contenedor-flex">
 
-    <div id="filtros"></div>
-
-    <label for="filtrar-por-género">Filtrar por género</label>
+    <label class="label-select" for="filtrar-por-género">Filtrar por género</label>
     <select  data-testid="select-filter"  name="género"  id="filtrar-por-género">
       <option value="nada"></option>
       <option value="Acción">Acción</option>
@@ -24,12 +23,11 @@
       <option value="Estrategia">Estrategia</option>
       <option value="Aventuras">Aventuras</option>
       <option value="Puzzle">Puzzle</option>
-      <option value="Laberito">Laberinto</option>
       <option value="Lucha">Lucha</option>
     </select>
 
 
-    <label for="filtrar-por-POV">Filtrar por POV</label>
+    <label class="label-select" for="filtrar-por-POV">Filtrar por POV</label>
     <select data-testid="select-filter" name="POV"  id="filtrar-por-POV">
       <option value="nada"></option>
       <option value="Tercera persona">Tercera persona</option>
@@ -38,17 +36,21 @@
       <option value="Vista superior">Vista superior</option>
       <option value="Vista lateral">Vista lateral</option>
     </select>
-    <label for="ordenar-por">Ordenar por</label>
+    <label class="label-select" for="ordenar-por">Ordenar por</label>
     <select data-testid="select-filter" name="alfabet" id="ordenar-por">
+      <option value="nada"></option>
       <option value="asc">A - Z</option>
     </select>
 
-    <button data-testid="restablecerFiltros">Restablecer Filtros</button>
-
+    <button data-testid="restablecerFiltros" name="limpiarFiltros" id="restablecer-Filtros">Restablecer Filtros</button>
+  
+    <p id="estadisticas"></p>
+  </div>
   </nav>
     <div id="root"></div> 
    
   </body>
+  
   <footer>
     Videojuegos de los 80's al 2023. Desarrollado por Barbara Trejo.
   </footer>

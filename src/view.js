@@ -1,12 +1,15 @@
 export const renderItems = (data) => {
+  
   //creación ul
   const contenedorUl= document.createElement("ul");
 
   //For of 
   for(const datos of data){
+
   //creación li
   const contenedorLi=document.createElement("li");
   contenedorUl.appendChild(contenedorLi); 
+
   //creación dl
   const grupodl=document.createElement("dl");
   contenedorLi.appendChild(grupodl);
