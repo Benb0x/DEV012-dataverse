@@ -24,13 +24,13 @@ function filtros(){
   juegosContenedor.innerHTML = "";
 
 
-const dataFiltrada = filtrosT(
-  data, 
-  optionSelect.value,
-  optionSelectPOV.value,
-  ordenar.value
-);
-juegosContenedor.appendChild(renderItems(dataFiltrada));
+  const dataFiltrada = filtrosT(
+    data, 
+    optionSelect.value,
+    optionSelectPOV.value,
+    ordenar.value
+  );
+  juegosContenedor.appendChild(renderItems(dataFiltrada));
 }
 
 const boton = document.querySelector('[data-testid="restablecerFiltros"]');
