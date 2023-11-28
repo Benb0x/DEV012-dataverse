@@ -5,7 +5,7 @@
 * [1. INTRODUCCIÓN](#1-introducción)
 * [2. RESUMEN](#2-resumen)
 * [3. PROMPT UTILIZADO](#3-prompt-utilizado)
-* [4. Funcionalidades](#4-funcionalidades)
+* [4. Prototipo De Baja Y Alta Fidelidad](#4-prototipo-de-baja-y-alta-fidelidad)
 * [5. Consideraciones técnicas](#5-consideraciones-técnicas)
 * [6. Criterios de aceptación mínimos del proyecto](#6-criterios-de-aceptación-mínimos-del-proyecto)
 * [7. Hacker edition](#7-hacker-edition)
@@ -62,7 +62,7 @@ Multijugador:
 
 El total de juegos en nuestro dataset es de 29.
 
-## 4. Funcionalidades
+## 4. Prototipo De Baja Y Alta Fidelidad
 
 ### Prototipo de baja fidelidad
 ![image](https://github.com/Benb0x/DEV012-dataverse/assets/144946997/03bbb805-9bc9-415c-ba06-6da357ce5586)
