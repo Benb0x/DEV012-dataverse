@@ -10,7 +10,7 @@
 * [6. FUNCIONALIDADES](#6-funcionalidades)
 * [7. CONSIDERACIONES TÉCNICAS](#7-consideraciones-técnicas)
 * [8. PRUEBAS UNITARIAS](#8-pruebas-unitarias)
-* [9. Pistas, tips y lecturas complementarias](#9-pistas-tips-y-lecturas-complementarias)
+* [9. DEPLOY](#9-deploy)
 * [10. Consideraciones para pedir tu Project Feedback](#10-consideraciones-para-pedir-tu-project-feedback)
 
 ***
@@ -70,7 +70,8 @@ para cualquier usuario.
 ### Prototipo de baja fidelidad
 
 
-Comencé mi proceso de diseño con un boceto rápido a mano para la interfaz de usuario. En esta fase mi enfoque se centra en la disposición general de los elementos en la página. Identifique los elementos esenciales que quería incorporar en mi interfaz, como las tarjetas, filtros e información. Este enfoque manual me permite experimentar con varias ideas y conceptos antes de avanzar a etapas más detalladas del diseño.
+Comencé mi proceso de diseño con un boceto rápido a mano para la interfaz de usuario. En esta fase mi enfoque se centra en la disposición general de los elementos en la página. Identifique los elementos esenciales que quería incorporar en mi interfaz, como las
+tarjetas, filtros e información. Este enfoque manual me permite experimentar con varias ideas y conceptos antes de avanzar a etapas más detalladas del diseño.
 
 ![image](https://github.com/Benb0x/DEV012-dataverse/assets/144946997/03bbb805-9bc9-415c-ba06-6da357ce5586)
 
@@ -117,9 +118,11 @@ La interfaz estructura de manera semántica la información mediante el estánda
 
 La aplicación realiza el cálculo y presenta estadísticas sobre la cantidad de videojuegos disponibles en línea y los que no lo están.
 
-Para simplificar la experiencia del usuario al filtrar información, se han incorporado elementos <select> que emplean atributos de datos y nombres. Cada <option> dentro de estos elementos <select> tiene un atributo value que corresponde al filtro deseado. Además, se ha creado un <select> adicional que ofrece opciones para ordenar la información, permitiendo al usuario elegir entre ordenar alfabéticamente de forma ascendente o por género (Mujer-Hombre y viceversa).
+Para simplificar la experiencia del usuario al filtrar información, se han incorporado elementos <select> que emplean atributos de datos y nombres. Cada <option> dentro de estos elementos <select> tiene un atributo value que corresponde al filtro deseado. Además,
+se ha creado un <select> adicional que ofrece opciones para ordenar la información, permitiendo al usuario elegir entre ordenar alfabéticamente de forma ascendente o por género (Mujer-Hombre y viceversa).
 
-Es esencial señalar que las funciones de ordenar y filtrar operan de manera acumulativa. Esto significa que si se aplica un filtro específico y luego se decide ordenar alfabéticamente, la plataforma mantiene el filtro original y organiza las tarjetas según el criterio seleccionado.
+Es esencial señalar que las funciones de ordenar y filtrar operan de manera acumulativa. Esto significa que si se aplica un filtro específico y luego se decide ordenar alfabéticamente, la plataforma mantiene el filtro original y organiza las tarjetas según el
+criterio seleccionado.
 
 La aplicación proporciona la opción de reiniciar la información filtrada mediante un botón, eliminando cualquier filtro aplicado y restableciendo el orden original.
 
@@ -149,93 +152,10 @@ integridad y precisión de estas funcionalidades dentro de la aplicación. Estas
 ![image](https://github.com/Benb0x/DEV012-dataverse/assets/144946997/b62d078e-5b63-4898-bf59-4fb29cf48697)
 
 
-## 9. Pistas, tips y lecturas complementarias
+## 9. DEPLOY
 
-### Primeros pasos
-
-Súmate al canal de Slack
-[#project-dataverse](https://claseslaboratoria.slack.com/archives/C03MV35EP5M)
-para conversar y pedir ayuda del proyecto.
-
-Antes de empezar a escribir código, debes definir qué deberá hacer el
-producto con base en el conocimiento que puedas obtener de tu usuaria.
-Estas preguntas te pueden ayudar:
-
-* ¿Quiénes son las principales usuarias del producto?
-* ¿Cuáles son los objetivos de estas usuarias en relación con el producto?
-* ¿Cuáles son los datos más relevantes que quieren ver en la interfaz y por qué?
-* ¿Cuándo utilizan o utilizarían el producto?
-* Toda tu investigación previa debe tener como resultado todas las Historias
-  de Usuaria de tu proyecto.
-* No hagas los prototipos de alta fidelidad de todas tus Historias. Comienza
-  solamente por los que se necesiten para tu Sprint 1 (semana 1 de trabajo). Más
-  pistas en la guía de organización para el proyecto.
-
-Cuando ya estés lista para codear, te sugerimos empezar de esta manera:
-
-1. Una de las integrantes del equipo debe realizar un :fork_and_knife:
-   [fork](https://help.github.com/articles/fork-a-repo/) del repo de tu cohort,
-   tus _coaches_ te compartirán un _link_ a un repo y te darán acceso de lectura
-   en ese repo. La otra integrante del equipo deber hacer un fork **del
-   repositorio de su compañera** y
-   [configurar](https://gist.github.com/BCasal/026e4c7f5c71418485c1) un `remote`
-   hacia el mismo.
-2. :arrow_down: [Clona](https://help.github.com/articles/cloning-a-repository/)
-   tu _fork_ a tu computadora (copia local).
-3. 📦 Instala las dependencias del proyecto con el comando `npm install`. Esto
-   asume que has instalado [Node.js](https://nodejs.org/) (que incluye [npm](https://docs.npmjs.com/)).
-4. Si todo ha ido bien, deberías poder ejecutar las :traffic_light:
-   pruebas unitarias (unit tests) con el comando `npm test`.
-5. Para ver la interfaz de tu programa en el navegador, usa el comando
-  `npm start` para arrancar el servidor web y dirígete a
-  `http://localhost:5000` en tu navegador.
-6. A codear se ha dicho! :rocket:
-
-### Contenido de referencia
-
-#### Desarrollo Front-end
-
-* [Tópicos en la currícula de Laboratoria](https://curriculum.laboratoria.la/es/web-dev/topics)
-  testing, arreglos, objetos, funciones, DOM en Browser Javascript.
-* [Buscando elementos con querySelector*](https://es.javascript.info/searching-elements-dom)
-* [Objeto del evento](https://es.javascript.info/introduction-browser-events#objeto-del-evento)
-* [Array en MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array)
-* [Array.sort en MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/sort)
-* [Array.toSorted en MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/toSorted)
-* [Array.map en MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/map)
-* [Array.filter en MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/filter)
-* [Array.reduce en MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/reduce)
-* [Array.forEach en MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/forEach)
-* [Object.keys en MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Object/keys)
-* [Object.entries en MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Object/entries)
-* [Atributos de datos](https://developer.mozilla.org/es/docs/Learn/HTML/Howto/Use_data_attributes)
-* [expressions-vs-statements](https://2ality.com/2012/09/expressions-vs-statements.html)
-* [expresión vs sentencia](https://openclassrooms.com/en/courses/4309531-descubre-las-funciones-en-javascript/5108986-diferencia-entre-expresion-y-sentencia)
-* [Datos atómicos vs datos estructurados](https://www.todojs.com/tipos-datos-javascript-es6/)
-* [Módulos: Export](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Sentencias/export)
-* [Módulos: Import](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Sentencias/import)
-* [Diferencia entre array y objetos](https://youtu.be/mJJloQY7A8Y)
-* [¿Cómo puedo recorrer un objeto?](https://youtube.com/01RHn23Bn_0)
-* [`map`, `filter`, `sort` y `reduce` también son métodos para objetos](https://youtu.be/bUl1R2lQvKo)
-* [Diferencia entre expression y statements](https://youtu.be/wlukoWco2zk)
-* [Diferencia entre createElement e innerHTML](https://www.javascripttutorial.net/javascript-dom/javascript-innerhtml-vs-createelement/)
-* [¿Qué es el Scope?](https://youtu.be/s-7C09ymzK8)
-
-#### Herramientas
-
-* [Git](https://git-scm.com/)
-* [GitHub](https://github.com/)
-* [GitHub Pages](https://pages.github.com/)
-* [Para preguntas sobre Git recomendamos ver este playlist](https://www.youtube.com/watch?v=F1EoBbvhaqU&list=PLiAEe0-R7u8k9o3PbT3_QdyoBW_RX8rnV)
-* [Node.js](https://nodejs.org/)
-* [Jest](https://jestjs.io/)
-
-#### Organización del Trabajo
-
-* [Historias de Usuario](https://www.youtube.com/watch?v=ky6wFiF5vMk&t=344s).
-  Ojo que Cris no diferencia _Definición de terminado_ de _Criterios de
-  Aceptación_ y nosotros sí lo haremos. Más detalles en la guía.
-* [Cómo dividir H.U.](https://www.youtube.com/watch?v=Ueq786iZ30I&t=341s)
+La aplicación se encuentra publicado a través de Github Pages, accesible a todo usuario:
+https://benb0x.github.io/DEV012-dataverse/src/index.html
 
 ## 10. Consideraciones para pedir tu Project Feedback
 
