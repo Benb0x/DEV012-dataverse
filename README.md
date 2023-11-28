@@ -4,7 +4,7 @@
 
 * [1. INTRODUCCIÓN](#1-introducción)
 * [2. RESUMEN](#2-resumen)
-* [3. Consideraciones generales](#3-consideraciones-generales)
+* [3. PROMPT UTILIZADO](#3-prompt-utilizado)
 * [4. Funcionalidades](#4-funcionalidades)
 * [5. Consideraciones técnicas](#5-consideraciones-técnicas)
 * [6. Criterios de aceptación mínimos del proyecto](#6-criterios-de-aceptación-mínimos-del-proyecto)
@@ -39,18 +39,28 @@ Dado que utilizamos distintos dispositivos en la actualidad, implementamos consu
 
 
 
-## 3. Consideraciones generales
+## 3. PROMPT UTILIZADO
 
-* Este proyecto se debe resolver en duplas.
-* El rango de tiempo estimado para completar el proyecto es de 3 a 4 Sprints.
-* El tiempo estimado que deberías dedicar a la [generación de los datos](#generar-los-datos)
-  es de máximo un sprint. Además, al final del proyecto deberás presentar
-  un [screenshot del prompt utilizado](#prompt-utilizado).
-* Si ves que te va a tomar más tiempo,
-  deberás utilizar los datos de ejemplo que los vas a encontrar en
-  esta ruta: `./src/data/dataset.js`.
-* El proyecto será entregado subiendo tu código a GitHub (commit/push) y la
-  interfaz será desplegada usando [GitHub Pages](https://pages.github.com/).
+![image](https://github.com/Benb0x/DEV012-dataverse/assets/144946997/6cf337a7-f94c-4828-9395-024dcf9c75cd)
+
+
+En esta ocasión, nos hemos apoyado en la inteligencia artificial para generar nuestra propia base de datos. Decidimos crear una página dedicada a los videojuegos más populares desde los años 80 hasta el año 2023. Los datos que solicitamos para construir nuestro
+conjunto de datos son los siguientes:
+
+ID:
+Nombre:
+Género:
+Descripción Corta:
+Descripción Completa:
+Imagen URL:
+Datos:
+Año de Lanzamiento:
+Género del Juego:
+Estilos de Juego:
+Punto de Vista:
+Multijugador:
+
+El total de juegos en nuestro dataset es de 29.
 
 ## 4. Funcionalidades
 
