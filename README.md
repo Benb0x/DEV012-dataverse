@@ -138,12 +138,19 @@ criterio seleccionado.
 La aplicación web está compuesta por varios tipos de archivos, incluyendo aquellos escritos en los lenguajes HTML, JavaScript (JS) y CSS:
 
 *src/index.html
+
 *src/main.js
+
 *dataset.js
+
 *src/dataFunctions.js (incluye la función computeStats(data))
+
 *src/data
+
 *test/dataFunctions.spec.js
+
 *test/data.js
+
 *src/view.js (incluye la función renderItems(data))
 
 ## 8. PRUEBAS UNITARIAS
