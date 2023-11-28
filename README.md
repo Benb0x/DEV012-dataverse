@@ -24,7 +24,7 @@ La interacción del usuario se potencia con herramientas estadísticas que brind
 personalización dinámica de la visualización. En este viaje, fusionamos la potencia de la inteligencia artificial con la flexibilidad de la renderización web, ofreciendo una plataforma que no solo informa, sino que también invita a la exploración y
 descubrimiento. 
 
-## 2.  RESUMEN
+## 2. RESUMEN
 
 ![image](https://github.com/Benb0x/DEV012-dataverse/assets/144946997/f0dfce1d-294f-44bd-9006-c5f3cece85a4)
 Vista del proyecto desde el navegador.
