@@ -11,7 +11,8 @@
 * [7. CONSIDERACIONES TÉCNICAS](#7-consideraciones-técnicas)
 * [8. PRUEBAS UNITARIAS](#8-pruebas-unitarias)
 * [9. DEPLOY](#9-deploy)
-* [10. Consideraciones para pedir tu Project Feedback](#10-consideraciones-para-pedir-tu-project-feedback)
+* [10. CRITERIOS DE ACEPTACIÓN MÍNIMOS DEL PROYECTO](#10-criterios-de-aceptación-mínimos-del-proyecto)
+* [11. DESARROLLADORA DEL PROYECTO](#11-desarrolladora-del-proyecto)
 
 ***
 
@@ -158,6 +159,56 @@ integridad y precisión de estas funcionalidades dentro de la aplicación. Estas
 La aplicación se encuentra publicado a través de Github Pages, accesible a todo usuario:
 https://benb0x.github.io/DEV012-dataverse/src/index.html
 
+## 10. CRITERIOS DE ACEPTACIÓN MÍNIMOS DEL PROYECTO
 
+### Criterios de código
 
+La aplicación debió aprobar los siguientes test para considerarse como un buen proyecto a nivel estructural.
+
+* npm run test:oas-html
+* npm run test:oas-css
+* npm run test:oas-web-api
+* npm run test:oas-js
+* npm run test:oas-prompting
+* npm run test:oas
+
+#### HTML
+
+* **Uso de HTML semántico**
+
+  - Tiene un `<header>` con `<h1>`
+  - Tiene un `<footer>`
+  - Tiene un `<main>` con `<h2>`
+  - Todas las etiquetas de controles (inputs y select) tienen `<label>`
+  - `<ul>` esta usado para dibujar la data
+  - Los hijos de `<li>` usan atributos de microdata `itemscope` e `itemprop`
+
+#### CSS
+
+* **Uso de selectores de CSS**
+
+  - Uso de selector class para los items `<li>`
+  - Uso de flexbox en sentido `row` y `column`
+  - Uso de flexbox para el elemento que contiene los items
+  - Uso de flexbox para el elemento que contiene los UI inputs
+
+#### Web APIs
+
+* Uso de selectores del DOM
+* Manejo de eventos del DOM (listeners, propagación, delegación)
+* Manipulación dinámica del DOM
+
+#### JavaScript
+
+* Variables (declaración, asignación, ámbito)
+* Uso de condicionales (if-else, switch, operador ternario, lógica booleana)
+* Funciones (params, args, return)
+* Arrays (arreglos)
+* Objetos
+* Módulos de ECMAScript (ES Modules)
+
+## 11. DESARROLLADORA DEL PROYECTO
+
+| [<img src="https://avatars.githubusercontent.com/u/144946997?v=4" width=115px><br><sub>Barbara Trejo<sub>](https://github.com/Benb0x)
+| :---: |
 
