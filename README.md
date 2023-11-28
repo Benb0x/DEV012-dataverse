@@ -79,7 +79,8 @@ tarjetas, filtros e información. Este enfoque manual me permite experimentar co
 ### Prototipo de alta fidelidad
 
 
-El prototipo de alta fidelidad fue diseñado utilizando la aplicación Figma. En este proceso, se establecieron elementos clave, como la paleta de colores, el estilo visual y el funcionamiento inicial. Este prototipo de alta fidelidad sirve como una representación avanzada y detallada de la visión conceptual.
+El prototipo de alta fidelidad fue diseñado utilizando la aplicación Figma. En este proceso, se establecieron elementos clave, como la paleta de colores, el estilo visual y el funcionamiento inicial. Este prototipo de alta fidelidad sirve como una representación
+avanzada y detallada de la visión conceptual.
 ![image](https://github.com/Benb0x/DEV012-dataverse/assets/144946997/a65ad088-1bb8-422c-b7d4-ea0e371ac514)
 
 
@@ -130,5 +131,33 @@ criterio seleccionado.
 * Cabe destacar que las operaciones de filtrar, ordenar, limpiar, entre otras, se realizan de forma dinámica a través de JavaScript, es decir, interactúa sin necesidad de recargar la página.
 
 * Adicionalmente, la aplicación es completamente adaptable, brindando una experiencia óptima en dispositivos móviles, tablets y desktops.
+
+## 7. CONSIDERACIONES TÉCNICAS
+
+La aplicación web está compuesta por varios tipos de archivos, incluyendo aquellos escritos en los lenguajes HTML, JavaScript (JS) y CSS:
+
+*src/index.html
+*src/main.js
+*dataset.js
+*src/dataFunctions.js (incluye la función computeStats(data))
+*src/data
+*test/dataFunctions.spec.js
+*test/data.js
+*src/view.js (incluye la función renderItems(data))
+
+## 8. PRUEBAS UNITARIAS
+
+A lo largo del proyecto, hemos implementado un total de 10 pruebas unitarias que evalúan el funcionamiento de los filtros de Género, Punto de Vista (POV) y los ordenamientos ascendente y descendente. Estas pruebas unitarias han sido diseñadas para garantizar la
+integridad y precisión de estas funcionalidades dentro de la aplicación. Estas pruebas se ejecutan utilizando el comando npm run test.
+
+![image](https://github.com/Benb0x/DEV012-dataverse/assets/144946997/b62d078e-5b63-4898-bf59-4fb29cf48697)
+
+
+## 9. DEPLOY
+
+La aplicación se encuentra publicado a través de Github Pages, accesible a todo usuario:
+https://benb0x.github.io/DEV012-dataverse/src/index.html
+
+
 
 
