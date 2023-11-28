@@ -7,7 +7,7 @@
 * [3. PROMPT UTILIZADO](#3-prompt-utilizado)
 * [4. PROTOTIPO DE BAJA Y ALTA FIDELIDAD](#4-prototipo-de-baja-y-alta-fidelidad)
 * [5. HISTORIAS DE USUARIO](#5-historias-de-usuario)
-* [6. Criterios de aceptación mínimos del proyecto](#6-criterios-de-aceptación-mínimos-del-proyecto)
+* [6. FUNCIONALIDADES](#6-funcionalidades)
 * [7. Hacker edition](#7-hacker-edition)
 * [8. Objetivos de aprendizaje](#8-objetivos-de-aprendizaje)
 * [9. Pistas, tips y lecturas complementarias](#9-pistas-tips-y-lecturas-complementarias)
@@ -97,9 +97,8 @@ Primera historia de usuaria:
 
 Para consultar las siguientes historias de usuario, puedes entrar a este enlace: https://docs.google.com/document/d/1sRjVjkS7Ji8zslaAwuDoWsNrKQ_ScfQuvMUBoCOeZ1U/edit
 
-## 6. 
+## 6. FUNCIONALIDADES
 
-## 7. Hacker edition
 npm run test:oas-html
 npm run test:oas-css
 npm run test:oas-web-api
