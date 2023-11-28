@@ -2,8 +2,8 @@
 
 ## Índice
 
-* [1. Preámbulo](#1-preámbulo)
-* [2. Resumen del proyecto](#2-resumen-del-proyecto)
+* [1. INTRODUCCIÓN](#1-introducción)
+* [2. RESUMEN](#2-resumen)
 * [3. Consideraciones generales](#3-consideraciones-generales)
 * [4. Funcionalidades](#4-funcionalidades)
 * [5. Consideraciones técnicas](#5-consideraciones-técnicas)
@@ -15,46 +15,29 @@
 
 ***
 
-## 1. Preámbulo
+## 1. INTRODUCCIÓN 
 
-Según [Forbes](https://www.forbes.com/sites/bernardmarr/2018/05/21/how-much-data-do-we-create-every-day-the-mind-blowing-stats-everyone-should-read),
-el 90% de la data que existe hoy ha sido creada durante los últimos dos años.
-Cada día generamos 2.5 millones de terabytes de datos, una cifra sin
-precedentes.
+En este proyecto, nos sumergimos en el mundo de la inteligencia artificial para generar un conjunto de datos único. La magia se revela a través de una renderización en HTML mediante JavaScript, creando una experiencia visual cautivadora. Este conjunto de datos,
+presentado de manera accesible, adopta la forma de tarjetas de información y se presta a una exploración profunda gracias a filtros interactivos y acumulativos.
 
-No obstante, los datos por sí mismos son de poca utilidad. Para que esas
-grandes cantidades de datos se conviertan en **información** fácil de leer para
-las usuarias, necesitamos entender y procesar estos datos. Una manera simple de
-hacerlo es creando _interfaces_ y _visualizaciones_.
+La interacción del usuario se potencia con herramientas estadísticas que brindan una comprensión más profunda de la información disponible. Cada tarjeta es una ventana a datos precisos, mientras que los filtros, diseñados para ser intuitivos, permiten una
+personalización dinámica de la visualización. En este viaje, fusionamos la potencia de la inteligencia artificial con la flexibilidad de la renderización web, ofreciendo una plataforma que no solo informa, sino que también invita a la exploración y
+descubrimiento. 
 
-En la siguiente imagen, podrás ver cómo con la data que que se ve en la parte
-izquierda se puede construir una interfaz amigable y entendible por las
-usuarias, al lado derecho.
+## 2.  RESUMEN
 
-![pokemon-data-to-ui](https://user-images.githubusercontent.com/12631491/218505816-c6d11758-9de4-428f-affb-2a56ea4d68c4.png)
+![image](https://github.com/Benb0x/DEV012-dataverse/assets/144946997/f0dfce1d-294f-44bd-9006-c5f3cece85a4)
+Vista del proyecto desde el navegador.
 
-## 2. Resumen del proyecto
+En este proyecto, desarrollamos una página web para explorar un conjunto de datos creado mediante la inteligencia artificial a través de instrucciones específicas. La estructura de la página se ajustó considerando las necesidades de los usuarios, utilizando
+historias de usuario para su adaptación.
 
-En este proyecto **construirás una _página web_ para visualizar un
-_conjunto (set) de datos_** que vas a generar con [prompting](https://www.itmadrid.com/que-es-un-prompt-en-inteligencia-artificial-ia/).
-Esta página web se adecuará a lo que descubras que tu usuaria
-necesita.
+La interfaz consta de diversos filtros que permiten refinar, agrupar y organizar el conjunto de datos, presentando un conjunto de tarjetas con información detallada sobre el tema. Además, se incorporó un botón que posibilita "limpiar" cada campo y regresar a la
+visualización predeterminada de datos (inicio).
 
-Además, en este proyecto utilizarás herramientas de
-[inteligencia artificial](https://es.wikipedia.org/wiki/Inteligencia_artificial)
-como [ChatGPT](https://openai.com/chatgpt), [ExplainDev](https://explain.dev/),
-entre otras para generar un set de datos en un archivo javascript.
+Dado que utilizamos distintos dispositivos en la actualidad, implementamos consultas de medios mediante CSS en la aplicación para asegurar una visualización óptima tanto en dispositivos móviles como en computadoras, facilitando el acceso a la información.
 
-El propósito de generar los datos en esta manera es brindarte la oportunidad de
-adentrarte en el empleo de herramientas impulsadas por la inteligencia
-artificial, así como en [técnicas de
-prompting](https://learnprompting.org/es/docs/intro).
 
-Como entregable final tendrás una página web que permita **visualizar la data,
-filtrarla, ordenarla y calcular alguna estadística**. Con estadística
-nos referimos a distintos cálculos que puedes hacer con los datos para mostrar
-información aún más relevante a las usuarias (promedio, el valor máximo
-o mínimo, etc).
 
 ## 3. Consideraciones generales
 
