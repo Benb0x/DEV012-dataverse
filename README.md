@@ -64,9 +64,10 @@ El total de juegos en nuestro dataset es de 29.
 
 ## 4. Funcionalidades
 
+### Prototipo de baja fidelidad
 ![image](https://github.com/Benb0x/DEV012-dataverse/assets/144946997/03bbb805-9bc9-415c-ba06-6da357ce5586)
 
-
+### Prototipo de alta fidelidad
 ![image](https://github.com/Benb0x/DEV012-dataverse/assets/144946997/a65ad088-1bb8-422c-b7d4-ea0e371ac514)
 
 
