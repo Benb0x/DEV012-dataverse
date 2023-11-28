@@ -84,12 +84,18 @@ El prototipo de alta fidelidad fue diseñado utilizando la aplicación Figma. En
 
 ## 5. HISTORIAS DE USUARIO
 
-En el desarrollo de las historias de usuario, se ha seguido un enfoque centrado en el usuario, incorporando una serie de preguntas que consideran las necesidades y expectativas del usuario final. Estas preguntas han sido fundamentales para estructurar un proceso 
-lógico e intuitivo dentro de la aplicación web.
+En el desarrollo de las historias de usuario, se ha seguido un enfoque centrado en el visitante, incorporando una serie de preguntas que consideran las necesidades y expectativas del navegante final. Estas preguntas han sido fundamentales para estructurar un
+proceso lógico e intuitivo dentro de la aplicación web.
 
-A partir de las respuestas recopiladas, se ha implementado un plan de trabajo que ha permitido establecer objetivos claros. Este enfoque ha sido esencial para diseñar una serie de prototipos que aborden de manera específica las necesidades planteadas en las 
-historias de usuario. Este proceso orientado al usuario ha sido clave para asegurar que la aplicación no solo cumpla con los requisitos técnicos, sino que también ofrezca una experiencia satisfactoria y efectiva para el usuario final.
+A partir de las respuestas recopiladas, se ha implementado un plan de trabajo que ha permitido establecer objetivos claros. Este enfoque ha sido esencial para diseñar una serie de prototipos que aborden de manera específica las necesidades planteadas en las
+historias de usuario. Este proceso orientado al usuario ha sido clave para asegurar que la aplicación no solo cumpla con los requisitos técnicos, sino que también ofrezca una experiencia satisfactoria y efectiva para el visitante final.
 
+Primera historia de usuaria:
+
+![image](https://github.com/Benb0x/DEV012-dataverse/assets/144946997/c311f37e-f499-43a3-b875-5d7c8053f55f)
+
+
+Para consultar las siguientes historias de usuario, puedes entrar a este enlace: https://docs.google.com/document/d/1sRjVjkS7Ji8zslaAwuDoWsNrKQ_ScfQuvMUBoCOeZ1U/edit
 
 ## 6. 
 
