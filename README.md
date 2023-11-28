@@ -64,8 +64,17 @@ El total de juegos en nuestro dataset es de 29.
 
 ## 4. PROTOTIPO DE BAJA Y ALTA FIDELIDAD
 
+Esta aplicación web ha sido construida a partir de dos tipos de prototipos: uno de baja fidelidad y otro de alta fidelidad. Ambos prototipos han sido cuidadosamente diseñados para incorporar requisitos esenciales, garantizando así una plataforma fácil de utilizar
+para cualquier usuario.
+
 ### Prototipo de baja fidelidad
+
+
+Comencé mi proceso de diseño con un boceto rápido a mano para la interfaz de usuario. En esta fase mi enfoque se centra en la disposición general de los elementos en la página. Identifique los elementos esenciales que quería incorporar en mi interfaz, como las tarjetas, filtros e información. Este enfoque manual me permite experimentar con varias ideas y conceptos antes de avanzar a etapas más detalladas del diseño.
+
 ![image](https://github.com/Benb0x/DEV012-dataverse/assets/144946997/03bbb805-9bc9-415c-ba06-6da357ce5586)
+
+El prototipo de alta fidelidad fue diseñado utilizando la aplicación Figma. En este proceso, se establecieron elementos clave, como la paleta de colores, el estilo visual y el funcionamiento inicial. Este prototipo de alta fidelidad sirve como una representación avanzada y detallada de la visión conceptual.
 
 ### Prototipo de alta fidelidad
 ![image](https://github.com/Benb0x/DEV012-dataverse/assets/144946997/a65ad088-1bb8-422c-b7d4-ea0e371ac514)
