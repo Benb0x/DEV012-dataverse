@@ -102,3 +102,33 @@ Para consultar las siguientes historias de usuario, puedes entrar a este enlace:
 
 Aquí detallamos las funciones esenciales de la aplicación:
 
+
+La aplicación permite al usuario visualizar los elementos de la información mediante una presentación en forma de tarjetas. Cada tarjeta se encuentra encapsulada en un elemento <li>, y estos elementos <li> están agrupados dentro de un elemento <ul>.
+
+El elemento <ul> está vinculado como descendiente de otro elemento que posee un atributo id específico.
+
+Las tarjetas resaltan los valores asociados a las propiedades de los videojuegos. Estos valores son susceptibles de ser filtrados y ordenados mediante los siguientes criterios en mi programa:
+
+Género: Si se elige un género específico.
+Punto de Vista (POV): Si se selecciona un POV particular.
+Orden ascendente: Para organizar alfabéticamente de forma ascendente.
+Orden descendente: Para organizar alfabéticamente de forma descendente.
+La información resultante, después de aplicar los filtros y la ordenación, se devuelve para su uso.
+
+La interfaz estructura de manera semántica la información mediante el estándar de microdatos, haciendo uso de atributos como itemscope, itemtype e itemprop.
+
+La aplicación realiza el cálculo y presenta estadísticas sobre la cantidad de videojuegos disponibles en línea y los que no lo están.
+
+Para simplificar la experiencia del usuario al filtrar información, se han incorporado elementos <select> que emplean atributos de datos y nombres. Cada <option> dentro de estos elementos <select> tiene un atributo value que corresponde al filtro deseado. Además,
+se ha creado un <select> adicional que ofrece opciones para ordenar la información, permitiendo al usuario elegir entre ordenar alfabéticamente de forma ascendente o por género (Mujer-Hombre y viceversa).
+
+Es esencial señalar que las funciones de ordenar y filtrar operan de manera acumulativa. Esto significa que, si se aplica un filtro específico y luego se decide ordenar alfabéticamente, la plataforma mantiene el filtro original y organiza las tarjetas según el
+criterio seleccionado.
+
+La aplicación proporciona la opción de reiniciar la información filtrada mediante un botón, eliminando cualquier filtro aplicado y restableciendo el orden original.
+
+Cabe destacar que las operaciones de filtrar, ordenar, limpiar, entre otras, se realizan de forma dinámica a través de JavaScript, es decir, interactúa sin necesidad de recargar la página.
+
+Adicionalmente, la aplicación es completamente adaptable, brindando una experiencia óptima en dispositivos móviles, tablets y desktops.
+
+
