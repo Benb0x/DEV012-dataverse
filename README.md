@@ -74,9 +74,11 @@ Comencé mi proceso de diseño con un boceto rápido a mano para la interfaz de 
 
 ![image](https://github.com/Benb0x/DEV012-dataverse/assets/144946997/03bbb805-9bc9-415c-ba06-6da357ce5586)
 
-El prototipo de alta fidelidad fue diseñado utilizando la aplicación Figma. En este proceso, se establecieron elementos clave, como la paleta de colores, el estilo visual y el funcionamiento inicial. Este prototipo de alta fidelidad sirve como una representación avanzada y detallada de la visión conceptual.
 
 ### Prototipo de alta fidelidad
+
+
+El prototipo de alta fidelidad fue diseñado utilizando la aplicación Figma. En este proceso, se establecieron elementos clave, como la paleta de colores, el estilo visual y el funcionamiento inicial. Este prototipo de alta fidelidad sirve como una representación avanzada y detallada de la visión conceptual.
 ![image](https://github.com/Benb0x/DEV012-dataverse/assets/144946997/a65ad088-1bb8-422c-b7d4-ea0e371ac514)
 
 
